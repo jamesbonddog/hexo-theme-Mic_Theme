@@ -1,0 +1,114 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "/img/bond_logo.png"
+    keywords: bond cryptocurrency jamesbond memecoin bitcoin
+    backgroundpic : "img/bond_logo_dark.png"
+
+Intro:
+    name: Bond
+    slogan: "My name is Bond... James Bond, The one meme coin to rule them all 🔫 🏎️ 👯‍♀️ <br/> Launching soon on Solana "
+    HeadButton: BOND
+
+Nav:
+    Home_name: Home
+#    is_use_categories : true
+#    categories_name: 分类
+#    is_use_archives : false
+#    archives_name: 归档
+    
+    #Social
+    # for more icons, please see http://fontawesome.io/icons/#brand
+    icon:
+#        github: https://github.com/miccall
+#        500px: http://500px.com
+        twitter: https://x.com/jamesbonddog
+        telegram: https://t.me.jamesbonddog
+        
+    pages:
+        About:
+            link: "/about/"
+#        团队 :
+#            link: "/group/"
+#        图库 :
+#            link: "/gallery/"
+#        标签:
+#            link: "/tag/"
+#        #自定义标签名
+#        #   link：“路径”
+
+MainFirst:
+    name: Beware Meme Mafia
+    pic_url: /img/mafia.png
+    goto_ulr: ""
+
+#Gallery :
+#    title: Mr.metro
+#    description: Just another fine responsive
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Custom code Render System 自定义代码渲染 
+# default dark funky okaidia twilight coy solarized  可选项  
+# link to review : http://prismjs.com/index.html   官网预览
+prism: coy
+
+# Custom Fonts
+fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus | disqus_click | changyan
+comment:
+    use: disqus_click
+    shortname: http-miccall-tech
+    duoshuo_thread_key_type: path
+    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    changyan_appid:
+    changyan_conf:
+    changyan_thread_key_type: path
+    # 使用 valine 请先执行 npm install valine --save
+    valine: # Valine Comment System https://github.com/xCss/Valine
+       on: true
+       appId: 'your appId'
+       appKey: 'your appkey'
+       notify: true
+       verify: false
+       placeholder: Please leave your footprints
+       avatar: ''
+       avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
+       pageSize: 10 # comments of one page
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use: google
+    swiftype_key: Just another fine responsive
+
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: #你的 app_id
+    app_key: #你的 app_key
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: true
+    all_site_uv: true
+    post_pv: true
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+
+# Mathjax 支持库
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
